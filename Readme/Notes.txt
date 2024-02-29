@@ -1,0 +1,5 @@
+Javascript is Schrounues single threaded language(one commmand exectue in time in the pacific order
+Part 2
+How java script code run and Execute in Global space 
+Call Stack-manage the gLobal Execution context in order 
+
