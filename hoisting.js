@@ -1,6 +1,6 @@
 var x =7;
 function getName() {
-    console.log("Namste Javascript");
+    console.log("Hello World");
 }
 
 getName();

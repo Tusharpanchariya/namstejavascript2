@@ -3,3 +3,27 @@ Part 2
 How java script code run and Execute in Global space 
 Call Stack-manage the gLobal Execution context in order 
 
+Hoisting:-
+Hoisting That is the show how javascript code run in order Ex.
+if we Run code like --
+
+var x =7;
+function getName() {
+    console.log("Hello World");
+}
+
+getName();
+console.log(x);
+Output--
+Hello World
+7
+In this case when we put exection code first than the var let see what output show 
+getName();
+console.log(x);
+var x =7;
+function getName() {
+    console.log("Hello World");
+}
+
+Output 
+undefined(Bcz we not define the value of X before the execution code )
