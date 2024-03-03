@@ -27,3 +27,21 @@ function getName() {
 
 Output 
 undefined(Bcz we not define the value of X before the execution code )
+
+
+FUNCTIONS:-
+
+(video 3)
+
+
+function work in call stack and global execution context
+ Video-4 (SHORTEST JS PROGRAM)
+This == wheneever we create a execution context this is create along with that even for the funcion exeution context and that point to be a window in case of browser 
+GLOBAL Space==Anything is not inside the function that is global Space
+EX.
+var a=1;
+function b(){
+
+var x =10;
+}
+in this example var a is inside global space and var b in not global space
