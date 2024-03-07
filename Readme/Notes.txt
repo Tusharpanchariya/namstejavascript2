@@ -61,5 +61,29 @@ console.log(x);
 output
 undefined
 4
+SCOPE CHAIN
+
+
+Scope =-where u access specific variable oe funciton in code 
+lexical envirement== local memeory of funtion and that parent lexical envirement that is lexical envirement
+
+
+
+Video 8
+LEt Const in js
+
+
+
+Temporer red zone ---when we initialize a funtion before the execution code that time between function and initilize that is temporer redzone
+
+let Const==in let function we can not access before initilizie for let and const they Reserved sepereate memory space not in G.C.
+var === when we run code before initilize output show undefined
+
+
+
+Video -9
+
+Block-Scope
+
 
 
