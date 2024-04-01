@@ -86,4 +86,11 @@ Video -9
 Block-Scope
 
 
+Closerus=funtion  along with lexical scope called clouser 
+
+
+Set timeout =
+
+
+in set timeoot that is kind of timer in js code when we put settimeout the js run the next line and run the code and when timer time end it will be run 
 
