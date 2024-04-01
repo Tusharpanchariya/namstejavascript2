@@ -1,5 +1,5 @@
 1=what is clusure?
-answer =funtion  along with lexical scope called clouser 
+answer =funtion  along with lexical scope called clouser combined  of function  along with lexical envirement 
 
   2=what is uses of closures in js ?
 module design pattern 
@@ -54,3 +54,55 @@ Quens -: what is output    function x (){
 console.log("Namste Javascript");
 }
 x();
+Answer -
+output is 1,2,3,4,5, bcz of close funtion create seprate copy of i function 
+
+
+Interview.js-:
+what is closures?
+what is advantages of clouser?
+data hiding and encapsulation(Data Hiding other variable function cannot access particular data)
+what is dissdvantages of closures?
+answers over conjumtion of memory complex the code and those of variable not a garbage collector (garabge collector  = its used for unnecesarry varible that have no longer use garbage collector freeze that variable memory  )
+
+
+QUES What is Reletion Between Garbage collector and Closures?
+
+
+Ques. what is Anonymous function ?
+-: A function without name 
+Qunes what is function   Statement or declaration ?
+Anes function statement 
+
+a();
+function a(){
+    console.log("a called")
+}
+
+
+ Qune what is function Expression ?
+ answer in this case output i b is not a funtion bcz function is include as a 
+ b();
+
+ var b= function b(){
+    console.log("b called")
+}
+
+
+
+
+ Qunes what is diffrence between parameter & arguments?
+
+ Answer Parameter :-
+ local variable inside the function called parameter its identifier or label of function
+ var b=function(param1,param2){
+    console.log("b ius called");
+
+ }
+
+ a();
+ b(1,2);
+ param 1 & param 2 is parameter of function 
+
+
+
