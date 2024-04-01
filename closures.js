@@ -43,5 +43,3 @@ x();
 
 z();
 
-
-// what is output ask bhaya 

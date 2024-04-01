@@ -103,6 +103,51 @@ function a(){
  a();
  b(1,2);
  param 1 & param 2 is parameter of function 
+ Argument the value which pass inside the function called a argument b(1,2); here 1,2  as a argument
+
+ Q --Example of Annonymous function ?
+ function(){
+
+ }
+Q what is first class function ?
+the ability that function use as a value that first class function is 
+
+example :-function a(){
+    console.log("a is cc");
+}
+var b=function  (param1){
+    return function xyz (){
+
+    }
+}
+console.log(b());
+Q-- what is first class function citizen?
+
+the function that used as a first class function(used to be as a value ) that is first class citizen
+
+
+
+Q--What output when we put Let & const in first class function replace of var ?
+function a(){
+    console.log("a is cc");
+}
+let b=function  (param1){
+    return function xyz (){
+
+    }
+}
+console.log(b());
+
+Answer That is treated same as well as var 
+    f xyz (){
+
+    }  
+
+    
+
+
+
+
 
 
 

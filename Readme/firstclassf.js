@@ -4,16 +4,16 @@
 
 
 // function      statement as a  functiondeclartion 
-function a(){
-    console.log("a called")
-}
+// function a(){
+//     console.log("a called")
+// }
 
 
 
-// function expression
-var b= function b(){
-    console.log("b called")
-}
+// // function expression
+// var b= function b(){
+//     console.log("b called")
+// }
 
 // output a is called 
 // b is not a function
@@ -27,12 +27,12 @@ var b= function b(){
 
 
 
-var b= function (param1){
-    console.log(param1());
+// var b= function (param1){
+//     console.log(param1());
 
-}
-function xyz (){
-    return 2;
+// }
+//  return function xyz (){
+    
 
     
 
@@ -40,5 +40,17 @@ function xyz (){
 
 
 
+// }
+// b(xyz);
+
+
+//first class function 
+function a(){
+    console.log("a is cc");
 }
-b(xyz);
+var b=function  (param1){
+    return function xyz (){
+
+    }
+}
+console.log(b());
