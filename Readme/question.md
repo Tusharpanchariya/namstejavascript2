@@ -159,7 +159,20 @@ document.getElementById("clickMe").addEventListener("click",function xyz(){
 }
 attachEventlistner();
 
+.....EVENT LOOP
 
+--Quens:- what is Event Loop ?
+Answer:-When the settimeout timer ends the call back function created and event loop push into the callstack  for exectute the code and it also work for the fetch api 
+that have maicro queue and call back queue
+
+----Set Timeout truest issue
+
+
+---High order function
+
+
+What i higher order function?
+Answer:-A function takes another function as a argument  and return from it call higher order function 
 
 
 
