@@ -143,7 +143,24 @@ Answer That is treated same as well as var
 
     }  
 
+    Q---CALL BACK
+    QUNES.-What is callback function ?
+    Answer:-A function pass to the another function called as callback function
     
+
+    Qunes What is event listner ?
+    Anes:-its handler that is callback function  it such kiind of clouser and remain memory 
+    
+function attachEventlistner(){
+let count=5;
+document.getElementById("clickMe").addEventListener("click",function xyz(){
+    console.log("button clicked",count++);
+});
+}
+attachEventlistner();
+
+
+
 
 
 

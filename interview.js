@@ -72,7 +72,6 @@ function a(){
 }
 var y =a();
 y();
-// garbage collector
 
 
 
@@ -83,3 +82,5 @@ y();
 
 
 
+
+9
