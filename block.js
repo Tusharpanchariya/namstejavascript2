@@ -1,20 +1,20 @@
-// if (true){
+if (true){
 
-//     //combined statement
-//     var a =2;
-//     console.log(a);
+    //combined statement
+    var a =2;
+    console.log(a);
     
     
     
-//     }
+    }
 
 
 
-// {
-//     var a=2;
-//     const b =3;
-//     let c = 4;
-// }
+{
+    var a=2;
+    const b =3;
+    let c = 4;
+}
 
 //shawding
 // if i put var outside the block scope the putput will be shadow(copy the ) 

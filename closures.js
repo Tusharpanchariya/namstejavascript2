@@ -1,24 +1,24 @@
 
-// function x(){
-//     var a =3;
-//     function y(){
-//         console.log(a);
-//     }
-//      return y;
-// }
+function x(){
+    var a =3;
+    function y(){
+        console.log(a);
+    }
+     return y;
+}
 
 // // output is nothing
 
-// function x(){x
-//     var a =3;
-//     function y(){
-//         console.log(a);
-//     }
-//  return  y;
-// }
-// var z =x();
-// console.log(z);
-// z();
+function x(){x
+    var a =3;
+    function y(){
+        console.log(a);
+    }
+ return  y;
+}
+var z =x();
+console.log(z);
+z();
 // output 3
 function z(){
     var b =66;

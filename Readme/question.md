@@ -1,4 +1,17 @@
-1=what is clusure?
+1
+
+What is call stack ?
+, the call stack is a mechanism used to keep track of the execution context of functions in a program. Whenever a function is invoked, a new frame is pushed onto the call stack to represent that function's execution context. 
+
+
+
+
+
+
+
+
+
+=what is clusure?
 answer =funtion  along with lexical scope called clouser combined  of function  along with lexical envirement 
 
   2=what is uses of closures in js ?
@@ -173,10 +186,19 @@ that have maicro queue and call back queue
 
 What i higher order function?
 Answer:-A function takes another function as a argument  and return from it call higher order function 
+ 
+
+What Is diffrance between map and filter ?
+
+map() transforms each element of an array and returns a new array of the same length
 
 
+filter() selects elements from an array based on a condition and returns a new array containing only those elements that satisfy the condition.
 
+ what is Counstructor function ?
+A constructor function in JavaScript is a special type of function used to create and initialize objects  
 
+what is javascript starvation / CallBack Starvation ,"JavaScript thread blocking" or "render-blocking JavaScript,"
 
 
 
