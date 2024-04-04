@@ -1,0 +1,13 @@
+javacriptrefresher
+The REPL ---R=Read user input
+            E=Evalute uer input
+            P=print output
+            L=loop wait for new input
+             Template litreals -  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+
+         
+HTTP/HTTPS= hyper text transfer protocol /secure
+REQ= used to request to server 
+Res = response used take response from the server 
+WHat is fs ?
+use for the work on the anytext file and doc file in the server

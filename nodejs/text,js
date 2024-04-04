@@ -1,0 +1,16 @@
+const http= require('http');
+const fs = require('fs');
+ const server =http.createServer((req,res)=>{
+    const url= req.url;
+    const method = req.method;
+    if(url=='/'){
+        res.write('<html>');
+        res.write('<head><title>revieion</title><head>');
+        res.write('<body><h1>REIBHU</h1></body>');
+        res.write('</html>');
+        return res.end();
+
+    } 
+ }
+ );
+ server.listen(5000);
