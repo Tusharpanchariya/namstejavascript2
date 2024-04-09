@@ -1,7 +1,9 @@
 const fs = require('fs');
 
 
-
+const requestHandler = (req,res) => {
+    const url =req.url;
+    const method =req.method;   
     if(url === '/'){
         res.write('<html>');
         res.write('<head><title>Enter Message</title><head>');
@@ -35,4 +37,11 @@ res.write('<head><title> My first node server </title><head>');
 res.write('<body style ="color:red;"> <h1> hello welome </h1> </body>');
 res.write('</html>');
 res.end();
-});
+};
+
+// module.exports = {
+//         handler: requestHandler,
+//         someText:'some hard coded text'
+// };
+exports.handler=requestHandler;
+exports.someText = 'some coded text';

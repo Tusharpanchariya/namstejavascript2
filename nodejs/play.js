@@ -29,19 +29,19 @@
 // const hobbies = ['sports','cooking'];
 // const copiedArray = [...hobbies];
 // console.log(copiedArray);
-const fetchData = ()=>{
-    const promise = new Promise((resolve,reject)=>{
-        setTimeout(()=>{
-            resolve ('Done1');
-        },1500);
-        });
-    };
-setTimeout(()=>{
-    console.log('timer is done');
-    fetchData(text =>{
-        console.log(text);
-    });
+// const fetchData = ()=>{
+//     const promise = new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             resolve ('Done1');
+//         },1500);
+//         });
+//     };
+// setTimeout(()=>{
+//     console.log('timer is done');
+//     fetchData(text =>{
+//         console.log(text);
+//     });
 
-},3000);
-console.log('hello');
-console.log('hii');
+// },3000);
+// console.log('hello');
+// console.log('hii');
