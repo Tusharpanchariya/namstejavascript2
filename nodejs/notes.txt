@@ -11,3 +11,8 @@ REQ= used to request to server
 Res = response used take response from the server 
 WHat is fs ?
 use for the work on the anytext file and doc file in the server
+
+packages in node js -> npm install nodemon --save-dev  and npm install
+
+Error types--Syntex Errors,Runtime error, Lagical Error !
+Syntex Error that the wrong code in program 

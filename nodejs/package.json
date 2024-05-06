@@ -9,5 +9,11 @@
     "start-server": "node app.js"
   },
   "author": "Tushar Panchariya",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }

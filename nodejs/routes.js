@@ -11,7 +11,7 @@ const requestHandler = (req,res) => {
         res.write('</html>');
           return res.end();
     }
-    // process.exit();
+  
 if(url==='/message' && method ==='POST'){
     const body =[];
     req.on('data',(chunk)=>{
@@ -39,9 +39,9 @@ res.write('</html>');
 res.end();
 };
 
-// module.exports = {
-//         handler: requestHandler,
-//         someText:'some hard coded text'
-// };
+module.exports = {
+        handler: requestHandler,
+        someText:'some hard coded text'
+};
 exports.handler=requestHandler;
 exports.someText = 'some coded text';
